@@ -1,56 +1,48 @@
-Movie Rating Prediction
-🎬 Project Overview
-This project predicts movie ratings using machine learning techniques based on features like genre, director, cast, budget, and other movie metadata from the IMDB dataset.
+# 🚀 Data Science & Machine Learning Portfolio
 
-🎯 Business Problem
-Accurate rating prediction helps:
+## 👋 About Me
+I'm a passionate data science enthusiast with expertise in machine learning, data analysis, and predictive modeling. This portfolio showcases my projects that demonstrate both technical skills and business impact.
 
-Streaming platforms recommend content
+## 📂 Featured Projects
 
-Producers estimate commercial success
+### 🎯 [Customer Segmentation Analysis](./Customer-Segmentation/)
+**Unsupervised Machine Learning Project**
+- **Objective**: Identify distinct customer groups using clustering algorithms
+- **Technologies**: Python, Scikit-learn, Pandas, Matplotlib
+- **Key Results**: 5 distinct customer segments identified with 85% silhouette score
+- **Business Impact**: Enabled targeted marketing strategies and personalized campaigns
 
-Viewers discover high-quality movies
+### 🎬 [Movie Rating Prediction](./Movie-Rating-Prediction/)
+**Regression Analysis Project**
+- **Objective**: Predict IMDB movie ratings based on metadata features
+- **Technologies**: Python, Scikit-learn, Orange Data Mining
+- **Key Results**: 85% R² score achieved using Random Forest regression
+- **Key Insights**: Director experience and budget are strongest rating predictors
 
-Marketing teams target right audiences
+## 🛠️ Technical Skills
 
-🛠️ Technologies Used
-Programming Language: Python
+### **Programming & Tools**
+- **Languages**: Python, SQL, R
+- **ML Libraries**: Scikit-learn, TensorFlow, Pandas, NumPy
+- **Visualization**: Matplotlib, Seaborn, Tableau
+- **No-Code Tools**: Orange Data Mining, Weka
+- **Databases**: MySQL, MongoDB
 
-Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+### **Machine Learning Expertise**
+- **Supervised Learning**: Regression, Classification
+- **Unsupervised Learning**: Clustering, Dimensionality Reduction
+- **Model Evaluation**: Cross-validation, Hyperparameter Tuning
+- **Data Preprocessing**: Feature Engineering, Data Cleaning
 
-Algorithms: Linear Regression, Decision Trees, Random Forest, Gradient Boosting
+## 📊 Performance Metrics
 
-Tools: Jupyter Notebook
+| Project | Algorithm | Evaluation Metric | Score |
+|---------|-----------|-------------------|-------|
+| Customer Segmentation | K-Means | Silhouette Score | 0.85 |
+| Movie Rating Prediction | Random Forest | R² Score | 0.85 |
 
-Data Source: IMDB-Movie-Data.csv
+## 🚀 Quick Start
 
-📊 Dataset Information
-Total Samples: 1,000 movies
-
-Features: 12 attributes including:
-
-Title, Genre, Director, Cast
-
-Year, Runtime, Rating
-
-Votes, Revenue, Metascore
-
-Budget, Description
-Movie-Rating-Prediction/
-├── data/
-│   └── IMDB-Movie-Data.csv
-├── notebooks/
-│   └── movie_rating_prediction.ipynb
-├── src/
-│   ├── data_preprocessing.py
-│   ├── feature_engineering.py
-│   └── model_training.py
-├── models/
-│   └── best_model.pkl
-├── results/
-│   ├── performance_metrics.txt
-│   └── visualizations/
-│       ├── correlation_matrix.png
-│       ├── feature_importance.png
-│       └── prediction_vs_actual.png
-└── README.md
+### **Prerequisites**
+```bash
+pip install -r requirements.txt
